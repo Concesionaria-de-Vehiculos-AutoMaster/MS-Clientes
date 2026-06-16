@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/clientes")
+@RequestMapping("/api/v1/clientes")
 public class ClienteController {
 
     @Autowired
